@@ -797,7 +797,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
     description: Attribute.Text;
     price: Attribute.BigInteger;
     stock: Attribute.Integer;
-    image: Attribute.Media;
+    images: Attribute.Media;
     categories: Attribute.Relation<
       'api::product.product',
       'manyToMany',

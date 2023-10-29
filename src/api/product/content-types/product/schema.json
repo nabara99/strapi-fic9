@@ -24,7 +24,7 @@
     "stock": {
       "type": "integer"
     },
-    "image": {
+    "images": {
       "type": "media",
       "multiple": true,
       "required": false,
